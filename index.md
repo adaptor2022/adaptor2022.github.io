@@ -2,7 +2,7 @@
 permalink: /index.html
 layout: home
 author_profile: true
-title: "AdaptOR: Deep Generative Model Challenge for Domain Adaptation in Surgery"
+title: "AdaptOR: Deep Image Generation Model Challenge in Surgery"
 classes: wide
 image: /assets/images/AdaptOR.png
 sidebar:
@@ -16,7 +16,7 @@ sidebar:
 
 <p style="padding: 10px; border: 2px solid red;">
 <b> +++ AdaptOR challenge re-opened December 2021 +++ </b><br>
-The AdaptOR challenge will be further continued and is open to receiving submissions from Dec 6, 2021.
+The AdaptOR 2021 challenge will be further continued and is open to receiving submissions from Dec 6, 2021.
 The participating teams continue to have a maximum of 3 submissions. 
 The submissions will be evaluated periodically and updated on our <a href="/leaderboard/">leaderboard</a>. 
 Please make note of our revised <a href="assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf">data access form</a>. 

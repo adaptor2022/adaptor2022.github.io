@@ -1,0 +1,15 @@
+main:
+  - title: "Publications"
+    url: /publications/
+  - title: "Dataset Info"
+    url: /datasetinfo/
+  - title: "Submission Details"
+    url: /submissiondetails/
+  - title: "Registration"
+    url: /registration/
+  - title: "Timeline"
+    url: /timeline/
+  - title: "Organizers"
+    url: /organizers/
+  - title: "Leaderboard"
+    url: /leaderboard/

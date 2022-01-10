@@ -1,0 +1,54 @@
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+<div class="sidebar sticky">
+	{% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+	{% if page.sidebar %}
+
+	{% if false %}
+	<!-- 
+  - image: "/assets/images/AdaptOR.png"
+    url: "https://adaptor2021.github.io/"
+  - image: "/assets/images/miccailogo.png"
+    url  : "https://miccai2021.org/en/"
+  - image: "/assets/images/UKHD.png"
+    url  : "https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine"
+  - image: "/assets/images/TU_Darmstadt.png"
+    url  : "https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp" -->
+	<!-- {% for s in page.sidebar %}
+	  {% if s.url %}<a href={{s.url}}>{% endif %}
+      {% if s.image %}
+        <img src="{{ s.image | relative_url }}"
+             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}" width="10px" height="10px">
+      {% endif %}
+	  {% if s.url %}</a>{% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+    {% endfor %} -->
+	{% endif %}
+	<a href="https://adaptor2021.github.io/">
+		<img src="/assets/images/AdaptOR.png" alt="AdaptOR"
+			srcset="/assets/images/AdaptOR.png 502w, /assets/images/AdaptOR-medium.png 331w, /assets/images/AdaptOR-small.png 166w, /assets/images/AdaptOR-mini.png 50w"
+			sizes="50vw">
+	</a>
+	<a href="https://miccai2021.org/en/">
+		<img src="/assets/images/miccailogo.png" alt="Miccai2021"
+			srcset="/assets/images/miccailogo.png 576w, /assets/images/miccailogo-medium.png 380w, /assets/images/miccailogo-small.png 190w, /assets/images/miccailogo-mini.png 58w"
+			sizes="50vw">
+	</a>
+	<a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
+		<img src="/assets/images/UKHD.png" alt="UKHD"
+			srcset="/assets/images/UKHD.png 2126w, /assets/images/UKHD-medium.png 1403w, /assets/images/UKHD-small.png 702w, /assets/images/UKHD-mini.png 213w"
+			sizes="50vw">
+	</a>
+	<a href="https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp">
+		<img src="/assets/images/TU_Darmstadt.png" alt="TU Darmstadt"
+			srcset="/assets/images/TU_Darmstadt.png 250w, /assets/images/TU_Darmstadt-medium.png 165w, /assets/images/TU_Darmstadt-small.png 83w, /assets/images/TU_Darmstadt-mini.png 25w"
+			sizes="50vw">
+	</a>
+	<div class="twitter-timeline-div"><a class="twitter-timeline" data-theme="light" href="https://twitter.com/AdaptOR2021?ref_src=twsrc%5Etfw">Tweets by AdaptOR2021</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+	{% if page.sidebar.nav %}
+	{% include nav_list nav=page.sidebar.nav %}
+	{% endif %}
+	{% endif %}
+</div>
+{% endif %}

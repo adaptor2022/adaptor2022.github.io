@@ -685,17 +685,18 @@ article {
         grid-column: span 3;
         justify-content: flex-end;
 
-        margin-left: 10rem;
+        margin-left: .5rem;
       }
       &:nth-child(3) {
-        margin-left: -3.8rem;
+        margin-left: 3rem;
       }
       &:nth-child(4) {
+        margin-left: 2rem;
       }
       &:nth-child(5) {
       }
       &:nth-child(6) {
-        margin-left: -3rem;
+        margin-left: 1rem;
       }
       &:nth-child(7) {
         margin-left: -1rem;

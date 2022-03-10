@@ -13,3 +13,5 @@ main:
     url: /organizers/
   - title: "Leaderboard"
     url: /leaderboard/
+  - title: "Archive"
+    url: /archive/

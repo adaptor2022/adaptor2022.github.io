@@ -11,57 +11,49 @@ summary: "Information about the schedule and publication"
     <dl>
         <div class="cell">
             <div class="cell-content">
-                <dt>01/04/2021</dt>
+                <dt>15/04/2022</dt>
                 <dd>release date of<br>
 				the training cases</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>1/06/2021</dt>
-                <dd>start platform testing</dd>
+                <dt>15/04/2022 - 30/06/2022</dt>
+                <dd>registration period</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt><del>30/05/2021</del><br>06/06/2021</dt>
-                <dd>last possible<br>
-				registration date</dd>
+                <dt>01/07/2022 - 01/08/2022</dt>
+                <dd>platform testing</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>02/07/2021</dt>
-                <dd>end platform testing</dd>
-            </div>
-        </div>
-        <div class="cell">
-            <div class="cell-content">
-                <dt><del>25/06/2021</del><br>
-                <span style="color: red;">02/07/2021</span>
-                </dt>
-                <dd>LNCS paper submission date</dd>
-            </div>
-        </div>
-        <div class="cell">
-            <div class="cell-content">
-                <dt>15/06/2021 - 07/07/2021</dt>
+                <dt>15/07/2022 - 15/08/2022</dt>
                 <dd>submission of docker container</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>01/10/2021<br></dt>
-                <dd>
-				release of the results<br>
-                at the <a href="https://dgm4miccai.github.io">DGM4MICCAI workshop</a>
-				</dd>
+                <dt>Depending on the<br>
+                timeline of the workshop</dt>
+                <dd>LNCS paper submission date</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>06/12/2021</dt>
-                <dd>AdaptOR challenge re-opens</dd>
+                <dt>either 17/09/2022<br>
+                or 23/09/2022</dt>
+                <dd>associated workshop days</dd>
+            </div>
+        </div>
+        <div class="cell">
+            <div class="cell-content">
+                <dt>Date of the workshop</dt>
+                <dd>
+				release date of the results
+				</dd>
             </div>
         </div>
     </dl>

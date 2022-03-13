@@ -44,16 +44,6 @@ Artificial Intelligence in Cardiovascular Medicine (AICM-Lab), Heidelberg Univer
     </div>
     <div class="team_member">
         <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
-        <img src="/assets/images/Stern_Antonia.jpg" srcset="/assets/images/Stern_Antonia.jpg 213w, /assets/images/Stern_Antonia-medium.jpg 141w, /assets/images/Stern_Antonia-small.jpg 70w, /assets/images/Stern_Antonia-mini.jpg 21w" sizes="50vw"><br>
-        <span class="team_member_name">Antonia Stern</span></a>
-    </div>
-    <div class="team_member">
-        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
-        <img src="/assets/images/Julian_Brand.png" srcset="/assets/images/Julian_Brand.png 213w, /assets/images/Julian_Brand-medium.png 141w, /assets/images/Julian_Brand-small.png 70w, /assets/images/Julian_Brand-mini.png 21w" sizes="50vw"><br>
-        <span class="organizer_name">Julian Brand</span></a>
-    </div>
-    <div class="team_member">
-        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
         <img src="/assets/images/halvar_kelm.png" srcset="/assets/images/halvar_kelm.png 213w, /assets/images/halvar_kelm-medium.png 141w, /assets/images/halvar_kelm-small.png 70w, /assets/images/halvar_kelm-mini.png 21w" sizes="50vw"><br>
         <span class="organizer_name">Halvar Kelm</span></a>
     </div>

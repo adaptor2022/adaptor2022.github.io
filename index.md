@@ -24,33 +24,41 @@ sidebar:
 </ul>
 
 ### <a id="Challenge_Abstract" class="uncolored_link">Challenge Abstract </a>
-Mitral regurgitation (MR) is the second most frequent indication for valve surgery in Europe and may occur for organic or functional causes [[1](#1)]. Mitral valve repair, although considerably more difficult, is prefered over mitral valve replacement, since the native tissue of the valve is preserved. It is a complex on-pump heart surgery, often conducted only by a handful of surgeons in high-volume centers. Minimally invasive procedures, which are performed with endoscopic video recordings, became more and more popular in recent years. However, data availability and data privacy concerns are still an issue for the development of automatic scene analysis algorithms. The AdaptOR challenge aims to address these issues by formulating a domain adaptation problem „from simulation to surgery“: We provide a smaller number of datasets from real surgeries, and a larger number of annotated recordings of training and planning sessions from a physical mitral valve simulator. The goal is to reduce the considerable domain gap between simulation and intraoperative cases, e.g. by incorporating generative models, as in [[2](#2),[3](#3)].
 
-The task associated to the domain adaptation itself is to detect a varying number of 2D landmarks per frame [[4](#4)] in the target domain. The landmarks are defined by the placement of sutures during mitral annuloplasty (entry and exit points into the tissue), which renders useful for surgical skill assessment and detailed intraoperative documentation. The evaluation metrics of this challenge will be related to how well these points could be identified in unseen intraoperative scenes, therefore it is also possible to only come up with a solution to a landmark detection problem in a single domain. More complex methods, however, would leverage data from both domains and adapt them on input-, output-, and/or feature level. Due to the specific clinical motivation of improving the realism of surgical simulation [[2](#2),[3](#3)], the AdaptOR challenge especially aims to provide a framework for comparison of the performance of different image-to-image translation approaches. Such approaches need to learn how to sucessfully transform the images into an intraoperative appearance, thereby not altering already realistic entities of the image (surgical instruments, sutures, needles etc.). While this can be merely assessed visually, and we will show example results during the workshop, we hypothesize that the success of landmark detection may be an indicator for the quality of the transfer with respect to the consistency of sutures in both domains.
+The continuing AdaptOR Challenge aims to spark methodological developments in deep image generation models
+for the surgical domain. In this year’s edition, we again focus on video-assisted mitral valve repair [1](#1), which is
+becoming the novel state-of-the art [2](#2). Especially the usage of 3D endoscopes, where data is captured with a left
+and right camera and presented on a 3D-compatible monitor, has been proven very beneficial due to increased
+depth perception. Moreover, it is possible when post processing to perform quantitative analyses by exploiting the
+stereo relation.
+Towards this end, and building upon the challenge in the previous year [7](#7), the AdaptOR Challenge 2022 proposes
+a task of novel view synthesis for endoscopic data. During training, the participants are provided the left and the
+right stereo camera images, and the test time task is to predict the corresponding image for a given image from the
+left camera. This would serve the purposes of facilitating 3D perception when only 2D data is available and of
+providing relevant information for depth reconstruction, as novel view synthesis is an integral subtask of
+numerous existing cutting edge depth estimation methods [[5](#5),[6](#6)].
+Intraoperative data sets in this challenge have varying camera angles, illumination, field of views and occlusions
+from tissues, tubes, and increased light reflections from surgical headlights. Especially demanding in these scenes is
+the view-dependent appearance of objects that are directly in front of the camera (e.g., sutures). They render it
+difficult to train models that faithfully predict the missing image from the image pair or to define the correct
+correspondences between associated pixels. Therefore, the proposed task of novel view synthesis is difficult to
+solve.
+To enhance the training split with data from a related domain, we additionally provide stereo frames from a mitral
+valve surgical simulator. These frames have comparably stable illumination (less varying reflections) and a more
+standardized view angle. Participants are invited to include a domain adaptation approach (e.g.,[8](#8)) into their
+solution.
+The dataset this year is an extension of our dataset we released in the previous year, where we now consider more
+surgeries and additional phases of mitral valve repair to significantly increase the sizes of the single splits at higher resolutions.
 
 
-### <a id="More_Background" class="uncolored_link">More Background </a>
-In our surgical training scenario, there is a clinical need for transforming not-so-realistic phantom data into more realistic surgical images [[2](#2),[3](#3)]. Therefore, we encourage the participants to use image-to-image translation approaches, however, this is not mandatory.  
-In general, we think the underlying detection task could be solved differently:
-
-1. Training of a landmark detection approach only on the intraoperative domain
-2. Using the simulation domain for pre-training/dataset fusion
-3. Incorporating the simulation domain by using a combination of more advanced input-, output-, feature-level domain adaptation approaches, possibly in an end-to-end training strategy
-4. Others.
-
-<span style="color:#B6B6B4">The authors should detail on their approaches in their submitted LNCS papers.</span><br>
-In case an image-to-image translation task was solved, we will provide visual examples of the generative model's output for visual comparison. These results are qualitative and will not be considered in the ranking scheme. We hypothesize that the quantitative assessment for landmark detection may be an indicator for the quality of the domain transfer with respect to the consistency of sutures in both domains.
-
-<div class="centered"><img src="/assets/images/example-medium.gif" srcset="/assets/images/example-medium.gif 1014w, /assets/images/example-small.gif 507w, /assets/images/example-mini.gif 154w" sizes="50vw"></div>
-*Figure 1. Example of domain transfer done with tempCycleGAN from [[2](#2)]. Left: Original video from a simulator. Center: Frames transformed into intraoperative appearance. Right: Backtransformed video frames.*
 
 ### <a id="Challenge_Document" class="uncolored_link">Challenge Document</a>
 
-DOI <a href="https://zenodo.org/record/4646979#.YGMXXD9CQ2w">10.5281/zenodo.4646979 (v2)</a>
+--DOI <a href="https://zenodo.org/record/4646979#.YGMXXD9CQ2w">10.5281/zenodo.4646979 (v2)</a>
 
 ### <a id="Keywords" class="uncolored_link">Keywords</a>
 <div class="smaller-text">
-Domain Adaptation, Generative Models, Landmark Detection, Deep Learning, Machine Learning
+Novel View Synthesis, Stereo, Domain Adaptation, Generative Models, Deep Learning, Machine Learning
 </div>
 
 ### <a id="References" class="uncolored_link">References</a>

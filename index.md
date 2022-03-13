@@ -15,37 +15,11 @@ sidebar:
 </div>
 
 <p style="padding: 10px; border: 2px solid red;">
-<b> +++ AdaptOR challenge re-opened December 2021 +++ </b><br>
-The AdaptOR 2021 challenge will be further continued and is open to receiving submissions from Dec 6, 2021.
-The participating teams continue to have a maximum of 3 submissions. 
-The submissions will be evaluated periodically and updated on our <a href="/leaderboard/">leaderboard</a>. 
-Please make note of our revised <a href="assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf">data access form</a>. 
-The joint challenge publication has not yet been carried out. 
-This publication will be planned by the organisers, once a sufficient number of submissions 
-are received from the participants. </p>
+<b> +++ Website under construction. Not all information is updated +++ </b><br> </p>
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
-<li> December 6th, 2021 - The AdaptOR challenge is re-opened and is now accepting further submissions. Please take note of the revised <a href="assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf">data access form</a>.
-The results of the evaluation will be periodically updated on our <a href="/leaderboard/">leaderboard</a>.</li>
-<div class="smaller-text">
-<li> November 8th, 2021 - Find the recent work from the organisers, that proposes further methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>.</li>
-<li> September 25th, 2021 - Find the submissions of the participants, published in the proceedings of the DGM4Miccai Workshop, LNCS MICCAI 2021 <a href="https://adaptor2021.github.io/publications/">here</a>.</li>
-<li> September 20th, 2021 - The final results are computed and will be announced at the DGM4Miccai Workshop on October 1st, 2021. The program can be seen <a href="https://dgm4miccai.github.io/">here</a>.</li>
-<li> July 16th, 2021 - Find the recent work from the organisers, that proposes methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>. Stay tuned for the challenge publication, coming soon.</li>
-<li> July 05th, 2021 - The final Docker Container Submission must be submitted to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Submission (9614850)</a> by July 07th 2021, as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>.</li>
-<li> June 25th, 2021 - Deadline extended to July 2nd 2021, 11:59 PM Pacific Time </li>
-<li>
-June 22nd, 2021 - Don't forget to choose the AdaptOR Challenge option under "Subject Areas", while creating a submission in the <a href="https://cmt3.research.microsoft.com/DGM4MICCAI2021">CMT platform</a> on June 25th. Read more about what to submit <a href="https://adaptor2021.github.io/timeline/#Publication">here</a> and use the opportunity of the Platform Testing Phase while it is still possible.</li>
-<li> June 01st, 2021 - The Platform Testing Phase has started. <a href="https://adaptor2021.github.io/submissiondetails/">Submit</a> your models to test the submission process to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Platform Test (9614808)</a> as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>. The results of your test submissions will be visible <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/609452">here</a>.</li>
-<li> May 27th, 2021 - <span style="color: #2f5697;">The last possible registration date is now 06/06/2021. Don't miss your chance and <a href="https://adaptor2021.github.io/registration/">register now</a>!</span></li>
-<li> May 27th, 2021 - Find out how we will evaluate the output of submissions with our evaluation script on the <a href="https://www.synapse.org/#!Synapse:syn25806839">Synapse platform</a> and in the <a href="https://github.com/Cardio-AI/adaptor_docker_example/blob/main/evaluation.py">Docker Example GitHub Repo</a>!</li>
-<li> May 12th, 2021 - We have now made more information about the <a href="https://adaptor2021.github.io/submissiondetails/">Submission Details</a> available. Check out the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a> and our <a href="https://github.com/Cardio-AI/adaptor_docker_example">Docker Example</a>!</li>
-<li> May 11th, 2021 - We are happy to announce that <a href="#Prizes">Challenge Awards</a> will be provided for the three top performing teams. We thank <a href="https://www.fehling-instruments.de/">Fehling Instruments GmbH & Co. KG</a> for their support!</li>
-<li> May 03rd, 2021 - AdaptOR is featured as challenge of the month on <a href="https://www.rsipvision.com/ComputerVisionNews-2021May/20/">Computer Vision News</a>!  </li>
-<li> April 27th, 2021 - It's now official: The AdaptOR Challenge will be hosted by the <a href="https://dgm4miccai.github.io/">DGM4MICCAI Workshop</a>.  </li>
-<li> April 09th, 2021 - To jump-start our participants' work, <a href="https://www.synapse.org/#!Synapse:syn25470804"> helper functions </a> in python can be found on the Synapse platform.  </li>
-<li> April 01st, 2021 - Training phase starts: Datasets are now available and teams can register on the <a href="https://www.synapse.org/#!Synapse:syn25314439">Synapse platform</a>! </li>
+<li> March 13th, 2022 - The 2nd Edition of the AdaptOR challenge will be held in conjunction with MICCAI 2022!
 </div>
 </ul>
 

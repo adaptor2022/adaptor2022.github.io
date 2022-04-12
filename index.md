@@ -47,7 +47,7 @@ correspondences between associated pixels. Therefore, the proposed task of novel
 solve.
 To enhance the training split with data from a related domain, we additionally provide stereo frames from a mitral
 valve surgical simulator. These frames have comparably stable illumination (less varying reflections) and a more
-standardized view angle. Participants are invited to include a domain adaptation approach (e.g.,[[8](#8)]) into their
+standardized view angle. Participants are invited to include a domain adaptation approach (e.g.,[[3](#3)],[[4](#4)],[[8](#8)]) into their
 solution.
 The dataset this year is an extension of our dataset we released in the previous year, where we now consider more
 surgeries and additional phases of mitral valve repair to significantly increase the sizes of the single splits at higher resolutions.
@@ -74,6 +74,11 @@ insufficiency. The Journal of Thoracic and Cardiovascular Surgery 61 (1), 1–13
 De Geest Raphael, Degrieck Ivan,Van Praet Frank, Vermeulen Yvette, Vanermen Hugo: Mitral Valve Surgery
 Can Now Routinely Be Performed Endoscopically. Circulation 108 (10 suppl 1), II–48 (2003). <br><br>
   
+[<a id="3">3</a>]  Sharan, L., Romano, G., Koehler, S., Karck, M., De Simone, R., Engelhardt, S.,
+Mutually improved endoscopic image synthesis and landmark detection in  unpaired image-to-image translation. IEEE Journal of Biomedical and Health Informatics, 26(1), 2022, Pages 127 – 138, 10.1109/JBHI.2021.3099858. https://arxiv.org/abs/2107.06941 <br><br>
+  
+[<a id="4">4</a>]   Engelhardt, S., Sharan, L., Karck, M., De Simone, R., Wolf, I., Cross-Domain Conditional Generative Adversarial Networks for Stereoscopic Hyperrealism in Surgical Training. In: Shen D. et al. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2019. MICCAI 2019. Lecture Notes in Computer Science, vol 11768. Springer, Cham, pp 155-163, doi: https://doi.org/10.1007/978-3-030-32254-0_18, https://arxiv.org/abs/1906.10011 <br><br>
+  
 [<a id="5">5</a>] Watson, J., Mac Aodha, O., Turmukhambetov, D., Brostow, G. J., & Firman, M. (2020). Learning Stereo from
 Single Images. ArXiv:2008.01484 [Cs]. http://arxiv.org/abs/2008.01484 <br><br>
   
@@ -86,7 +91,7 @@ ArXiv:2101.01619 [Cs]. http://arxiv.org/abs/2101.01619 <br><br>
 Hyperrealism: Deep Unpaired Image-to-Image Translation from Real Surgeries. In: Frangi A., Schnabel J.,
 Davatzikos C., Alberola-López C., Fichtinger G. (eds) Medical Image Computing and Computer Assisted
 Intervention – MICCAI 2018. MICCAI 2018. Lecture Notes in Computer Science, vol 11070. Springer, Cham, doi:
-10.1007/978-3-030-00928-1_<br><br>
+10.1007/978-3-030-00928-1_84<br><br>
   
 </div>
 

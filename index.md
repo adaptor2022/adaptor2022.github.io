@@ -14,13 +14,12 @@ sidebar:
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
-<p style="padding: 10px; border: 2px solid red;">
-<b> +++ Website under construction. Not all information is updated +++ </b><br> </p>
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
 <li> March 13th, 2022 - The 2nd Edition of the AdaptOR challenge will be held in conjunction with MICCAI 2022!
 </ul>
+
 
 ### <a id="Challenge_Abstract" class="uncolored_link">Challenge Abstract </a>
 

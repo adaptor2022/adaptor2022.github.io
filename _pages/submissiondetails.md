@@ -17,7 +17,7 @@ For the purpose of result verification and to encourage reproducibility and tran
 
 Please refer to our upcoming AdaptOR Submission Tutorial and the AdaptOR Docker Submission Example for more detailed information.
 
-Teams are encouraged to provide their code open source.  
+Teams are encouraged to provide their code open source. The URL should be added in the half-page description and in the potential LNCS submission.
 Participants agree that the challenge organizers are allowed to use their submitted docker containers to run further meta-analysis.
 
 Each participating team is allowed to make a total of 3 submissions to the system. The evaluation after each submission will be communicated to the team. 

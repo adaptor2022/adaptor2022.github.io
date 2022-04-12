@@ -17,6 +17,7 @@ sidebar:
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
+<li> April 1st, 2022  - The AdaptOR challenge will be associated to the <a href="https://dgm4miccai.github.io/">DGM4MICCAI workshop</a> 2022!
 <li> March 13th, 2022 - The 2nd Edition of the AdaptOR challenge will be held in conjunction with MICCAI 2022!</li>
 </ul>
 
@@ -93,7 +94,7 @@ Intervention – MICCAI 2018. MICCAI 2018. Lecture Notes in Computer Science, vo
 - The participants agree to participate in a challenge publication that will be planned by the organisers once a sufficient number of submissions are received.<br>
 
 ### <a id="Prizes" class="uncolored_link">Prizes</a>
-Details about the prizes will be announced in the future. 
+Details about potential prizes will be announced in the future. 
 
 <!--- The 1st Prize for the AdaptOR challenge was bagged by team <b>LS_Group</b> comprising of Jiacheng Wang, Haojie Wang, Ruochen Mu, and Liansheng Wang from Xiamen University, China. 
 Their submission titled <b> Cross-Domain Landmarks Detection in Mitral Regurgitation </b> can be found <a href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_12">here</a>.
@@ -105,5 +106,5 @@ The two top performing teams received certificates and prize money of 600€ and
 -->
 
 ### <a id="Potential_Future_Plans" class="uncolored_link">Potential Future Plans</a>
-Our envisioned goal is to extend the dataset with additional cases and potentially establish a recurring AdaptOR event to support progress in this application field.  
+Our goal is to extend the dataset with additional cases and to establish a recurring AdaptOR event to support progress in this application field. The <a href="https://adaptor2021.github.io/>1st edition of AdaptOR </a> was held at MICCAI 2021. 
 

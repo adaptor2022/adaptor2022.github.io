@@ -17,6 +17,10 @@ The goal of this challenge is to synthesise a novel view for the endoscopic data
 <img src="../assets/images/Data_explanation.png"><br>
 *Figure 1. Illustration of mitral valve annuloplasty (phase without ring).*
 
+### <a id="Simulator" class="uncolored_link">Mitral Valve Repair Simulator</a>
+
+A video of minimally invasive simulation can be found on <a href="https://www.youtube.com/watch?v=U8cc5ilBM04"> Youtube </a>.
+
 ### <a id="Data" class="uncolored_link">Data</a>
 
 The challenge cohort splits into two endoscopic sets:

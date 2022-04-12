@@ -11,13 +11,12 @@ cannot be used in another context until the embargo period has expired.
 
 ### <a id="MVRepair" class="uncolored_link">Mitral Valve Repair</a>
 
-Mitral valve repair is a heart surgery, which is aimed at re-storing the function of the mitral valve. During the surgery, the valve is not replaced but an **annuloplasty ring** is inserted to stabilize the mitral annulus. The prosthetic ring is anchored by **white and blue matress sutures** stitched in a particular pattern into the annulus. 
+Mitral valve repair is a heart surgery, which is aimed at re-storing the function of the mitral valve. During the surgery, the valve is not replaced but different surgical techniques are employed. For example, an annuloplasty ring prosthesis or a neo-chordae could be inserted. 
 The goal of this challenge is to synthesise a novel view for the endoscopic data. During training, the participants are provided the left and the right stereo camera images, and the test time task is to predict the corresponding image for a given image from the left camera.
 
-<img src="../assets/images/Data_explanation.png"><br>
-*Figure 1. Illustration of mitral valve annuloplasty (phase without ring).*
-
 ### <a id="Simulator" class="uncolored_link">Mitral Valve Repair Simulator</a>
+
+<a href="https://www.youtube.com/watch?v=U8cc5ilBM04"><img src="../assets/images/youtube.png"></a><br>
 
 A video of minimally invasive simulation can be found on <a href="https://www.youtube.com/watch?v=U8cc5ilBM04"> Youtube </a>.
 

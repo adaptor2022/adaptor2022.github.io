@@ -108,19 +108,15 @@
     }
     @media (min-height: 600px) {
       visibility: visible !important;
-      height: 34vh;
+      height: 27vh;
     }
-    @media (min-height: 660px) {
+    @media (min-height: 800px) {
       visibility: visible !important;
-      height: 37vh;
+      height: 33vh;
     }
-    @media (min-height: 767px) {
+    @media (min-height: 1000px) {
       visibility: visible !important;
-      height: 40vh;
-    }
-    @media (min-height: 919px) {
-      visibility: visible !important;
-      height: 43vh;
+      height: 36vh;
     }
   }
   @include breakpoint (min-width $x-large){
@@ -130,27 +126,15 @@
     }
     @media (min-height: 600px) {
       visibility: visible !important;
-      height: 28vh;
+      height: 20vh;
     }
-    @media (min-height: 660px) {
+    @media (min-height: 800px) {
       visibility: visible !important;
-      height: 31vh;
+      height: 27vh;
     }
-    @media (min-height: 742px) {
+    @media (min-height: 1000px) {
       visibility: visible !important;
-      height: 34vh;
-    }
-    @media (min-height: 847px) {
-      visibility: visible !important;
-      height: 37vh;
-    }
-    @media (min-height: 987px) {
-      visibility: visible !important;
-      height: 40vh;
-    }
-    @media (min-height: 1183px){
-      visibility: visible !important;
-      height: 43vh;
+      height: 33vh;
     }
   }
   overflow-x: hidden;

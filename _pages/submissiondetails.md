@@ -8,7 +8,7 @@ summary: "Information about the submission and the evaluation"
 ## <a id="Submission" class="uncolored_link">Submission</a>
 
 For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit a **Docker container on the Synapse platform** with the following requirements:
-
+  - (Mandatory:) Participants must submit a half-page write up of the challenge explaining their approach.
   - (Mandatory:) For each new input image of size 960x540 belonging to the left camera from the Intraop-Domain, the model should be able to generate an image of the same size belonging to the right camera.
   The docker container should output an image for **all images** in the hosts input directory via the command:
   ```

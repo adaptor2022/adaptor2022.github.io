@@ -22,6 +22,9 @@ A video of minimally invasive simulation can be found on <a href="https://www.yo
 
 ### <a id="Data" class="uncolored_link">Data</a>
 
+Data is collected from multiple phases of the surgery such as suturing, ring implantation, ring
+knotting, inspection, saline test, etc. Each surgery contains data from multiple phases of the surgery. 
+
 The challenge cohort splits into two endoscopic sets:
 1. Data acquired during **simulating mitral valve repair** on a surgical simulator ("Sim-Domain“). Valvular anatomy was extracted from 3D transesophageal echocardiography. More information on the simulator can be found in [1] and [2].
 2. Intraoperative endoscopic data from **real minimally invasive mitral valve repair** ("Intraop-Domain").
@@ -41,7 +44,7 @@ Besides the Intraop-Data, the data from the Sim-Domain may additionally be used 
 450 mono frames from 5 patients (100 frames from each). Patients are different from the training set.
 
 Besides the frames themselves, we release to which (anonymized) patient and domain the frame belongs to. 
-The number of frames per simulation/patient in the training data set are not equal, but are on the same scale. However, we balanced the number of frames per patient in the test data. Therefore, each patient in the test set has a similar influence on the final score.
+The number of frames per simulation/patient in the training data set are not equal, but are on the same scale. However, we balanced the number of frames per patient in the test data. Therefore, each patient in the test set has a similar influence on the final score. The test set is curated to avoid over-dependence on data from one patient, i.e. the test data comprises of a small number of frames but from diverse surgeries with different camera angles, illumination and field of views.
 
 ### <a id="References" class="uncolored_link">References</a>
 

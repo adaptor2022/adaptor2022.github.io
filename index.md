@@ -21,6 +21,9 @@ sidebar:
 <li> March 13th, 2022 - The 2nd Edition of the AdaptOR challenge will be held in conjunction with MICCAI 2022!</li>
 </ul>
 
+### <a id="Timeline" class="uncolored_link">Timeline </a>
+
+Release of Training Data is April 15th, 2022. Read more about <a href="https://adaptor2022.github.io/timeline/"> important dates </a>. 
 
 ### <a id="Challenge_Abstract" class="uncolored_link">Challenge Abstract </a>
 

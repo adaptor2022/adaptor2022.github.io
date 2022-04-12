@@ -4,12 +4,6 @@ permalink: /leaderboard/
 layout: home
 summary: "Brief information overview"
 ---
+More information coming soon
 
-<div markdown="1">
-
-|  Team |  Institute |  Score |
-|---|---|---|
-
-
-</div>
 

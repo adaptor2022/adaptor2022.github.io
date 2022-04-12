@@ -15,7 +15,7 @@ For the purpose of result verification and to encourage reproducibility and tran
   $ docker run --gpus all -v "<absolute_host_input_directory>:/input" -v "<absolute_host_output_directory>:/output" adaptor_challenge view_synthesis
   ```
 
-**Please refer to the [AdaptOR Submission Tutorial](https://www.synapse.org/#!Synapse:syn25314439/wiki/610471) and the [AdaptOR  Docker Submission Example](https://github.com/Cardio-AI/adaptor_docker_example) for more detailed information.**
+Please refer to our upcoming AdaptOR Submission Tutorial and the AdaptOR Docker Submission Example for more detailed information.
 
 Teams are encouraged to provide their code open source.  
 Participants agree that the challenge organizers are allowed to use their submitted docker containers to run further meta-analysis.

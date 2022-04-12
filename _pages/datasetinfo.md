@@ -27,7 +27,9 @@ The challenge cohort splits into two endoscopic sets:
 2. Intraoperative endoscopic data from **real minimally invasive mitral valve repair** ("Intraop-Domain").
 
 Data was recorded by a stereo-endoscope, which delivers two images of the same scene at the same time. 
-One case refers to one stereo frame extracted from the simulation sessions and the intra-operative videos. Stereo-frames were saved in top-down format (left image top, right image bottom) and split.
+One case refers to one stereo frame extracted from the simulation sessions and the intra-operative videos. Stereo-frames were saved in top-down format (left image top, right image bottom) and split. 
+
+Besides the Intraop-Data, the data from the Sim-Domain may additionally be used for improving generalization ability of the network. However, participants can individually decide to use the data or not.
 
 **Training Sim-Domain:**
 1366 stereo frames from 10 simulations (99-187 frames each) with an average of 136 frames per simulation.
@@ -39,7 +41,7 @@ One case refers to one stereo frame extracted from the simulation sessions and t
 450 mono frames from 5 patients (100 frames from each). Patients are different from the training set.
 
 Besides the frames themselves, we release to which (anonymized) patient and domain the frame belongs to. 
-The number of frames per simulation/patient in the training data set are not equal, but are on the same scale. We balanced the number of frames per patient in the test data. Therefore, each patient in the test set has a similar influence on the final score.
+The number of frames per simulation/patient in the training data set are not equal, but are on the same scale. However, we balanced the number of frames per patient in the test data. Therefore, each patient in the test set has a similar influence on the final score.
 
 ### <a id="References" class="uncolored_link">References</a>
 

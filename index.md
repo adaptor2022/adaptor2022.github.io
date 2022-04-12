@@ -97,7 +97,7 @@ Intervention – MICCAI 2018. MICCAI 2018. Lecture Notes in Computer Science, vo
 - The participants agree to participate in a challenge publication that will be planned by the organisers once a sufficient number of submissions are received.<br>
 
 ### <a id="Prizes" class="uncolored_link">Prizes</a>
-Details about potential prizes will be announced in the future. 
+Details about potential prizes will be announced in the future. Certificates will be provided for the top 3 performing teams.
 
 <!--- The 1st Prize for the AdaptOR challenge was bagged by team <b>LS_Group</b> comprising of Jiacheng Wang, Haojie Wang, Ruochen Mu, and Liansheng Wang from Xiamen University, China. 
 Their submission titled <b> Cross-Domain Landmarks Detection in Mitral Regurgitation </b> can be found <a href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_12">here</a>.

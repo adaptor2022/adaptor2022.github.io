@@ -17,7 +17,7 @@ sidebar:
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
-<li> April 1st, 2022  - The AdaptOR challenge will be associated to the <a href="https://dgm4miccai.github.io/">DGM4MICCAI workshop</a> 2022!
+<li> April 1st, 2022  - The AdaptOR challenge will be associated to the <a href="https://dgm4miccai.github.io/">DGM4MICCAI workshop</a> 2022! </li>
 <li> March 13th, 2022 - The 2nd Edition of the AdaptOR challenge will be held in conjunction with MICCAI 2022!</li>
 </ul>
 

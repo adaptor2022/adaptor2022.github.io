@@ -87,16 +87,13 @@ Intervention – MICCAI 2018. MICCAI 2018. Lecture Notes in Computer Science, vo
 </div>
 
 ### <a id="Rules" class="uncolored_link">Rules</a>
-<!---
-- Only fully automatic approaches are allowed
 - No additional training data and no models pre-trained on other datasets are allowed.
 - Each team is only allowed to register once and all submissions must be done from the same account.
 - A single participant is only allowed to be part of one team.
 - The participants agree to participate in a challenge publication that will be planned by the organisers once a sufficient number of submissions are received.<br>
-<span style="color:#B6B6B4">Participating teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.</span>
--->
 
 ### <a id="Prizes" class="uncolored_link">Prizes</a>
+Details about the prizes will be announced in the future. 
 <!--- The 1st Prize for the AdaptOR challenge was bagged by team <b>LS_Group</b> comprising of Jiacheng Wang, Haojie Wang, Ruochen Mu, and Liansheng Wang from Xiamen University, China. 
 Their submission titled <b> Cross-Domain Landmarks Detection in Mitral Regurgitation </b> can be found <a href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_12">here</a>.
 The 2nd Prize was won by Team Neko, comprising of Huifeng Yao, Ziyu Guo, Yatao Zhang, and Liansheng Wang from Shangdong University China, and Hongkong University.

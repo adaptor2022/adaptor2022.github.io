@@ -17,7 +17,7 @@ sidebar:
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
-<li> March 13th, 2022 - The 2nd Edition of the AdaptOR challenge will be held in conjunction with MICCAI 2022!
+<li> March 13th, 2022 - The 2nd Edition of the AdaptOR challenge will be held in conjunction with MICCAI 2022!</li>
 </ul>
 
 

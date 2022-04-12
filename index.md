@@ -106,5 +106,5 @@ The two top performing teams received certificates and prize money of 600€ and
 -->
 
 ### <a id="Potential_Future_Plans" class="uncolored_link">Potential Future Plans</a>
-Our goal is to extend the dataset with additional cases and to establish a recurring AdaptOR event to support progress in this application field. The <a href="https://adaptor2021.github.io/>1st edition of AdaptOR </a> was held at MICCAI 2021. 
+Our goal is to extend the dataset with additional cases and to establish a recurring AdaptOR event to support progress in this application field. The <a href="https://adaptor2021.github.io/">1st edition of AdaptOR </a> was held at MICCAI 2021. 
 

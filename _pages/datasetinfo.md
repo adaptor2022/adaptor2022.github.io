@@ -16,7 +16,11 @@ The goal of this challenge is to synthesise a novel view for the endoscopic data
 
 ### <a id="Simulator" class="uncolored_link">Mitral Valve Repair Simulator</a>
 
+<!--
 <a href="https://www.youtube.com/watch?v=U8cc5ilBM04"><img src="../assets/images/youtube.png"></a><br>
+-->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U8cc5ilBM04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A video of minimally invasive simulation can be found on <a href="https://www.youtube.com/watch?v=U8cc5ilBM04"> Youtube </a>.
 
@@ -26,7 +30,7 @@ Data is collected from multiple phases of the surgery such as suturing, ring imp
 knotting, inspection, saline test, etc. Each surgery contains data from multiple phases of the surgery. 
 
 The challenge cohort splits into two endoscopic sets:
-1. Data acquired during **simulating mitral valve repair** on a surgical simulator ("Sim-Domain“). Valvular anatomy was extracted from 3D transesophageal echocardiography. More information on the simulator can be found in [1] and [2].
+1. Data acquired during **simulating mitral valve repair** on a surgical simulator ("Sim-Domain“). Valvular anatomy was extracted from 3D transesophageal echocardiography. More information on the simulator can be found in [[1](#1)] and [[2](#2)].
 2. Intraoperative endoscopic data from **real minimally invasive mitral valve repair** ("Intraop-Domain").
 
 Data was recorded by a stereo-endoscope, which delivers two images of the same scene at the same time. 
@@ -48,7 +52,7 @@ The number of frames per simulation/patient in the training data set are not equ
 
 ### <a id="References" class="uncolored_link">References</a>
 
-[1] Engelhardt S, Sauerzapf S, Brčić A, Karck M, Wolf I, De Simone R. Replicated mitral valve models from real patients offer training opportunities for minimally invasive mitral valve repair. Interact Cardiovasc Thorac Surg. 2019 Jul 1;29(1):43-50. doi: 10.1093/icvts/ivz008.
+[<a id="1">1</a>] Engelhardt S, Sauerzapf S, Brčić A, Karck M, Wolf I, De Simone R. Replicated mitral valve models from real patients offer training opportunities for minimally invasive mitral valve repair. Interact Cardiovasc Thorac Surg. 2019 Jul 1;29(1):43-50. doi: 10.1093/icvts/ivz008.
 
-[2] Engelhardt, S., Sauerzapf, S., Preim, B., Karck, M., Wolf, I., De Simone, R., Flexible and Comprehensive Patient-Specific Mitral Valve Silicone Models with Chordae Tendinae Made From 3D-Printable Molds. Int J Comput Assist Radiol Surg Special Issue IPCAI 2019. 14(7):1177–1186, doi: 10.1007/s11548-019-01971-9. Preprint: <a href="https://arxiv.org/abs/1904.03704">1904.03704</a>
+[<a id="1">2</a>] Engelhardt, S., Sauerzapf, S., Preim, B., Karck, M., Wolf, I., De Simone, R., Flexible and Comprehensive Patient-Specific Mitral Valve Silicone Models with Chordae Tendinae Made From 3D-Printable Molds. Int J Comput Assist Radiol Surg Special Issue IPCAI 2019. 14(7):1177–1186, doi: 10.1007/s11548-019-01971-9. Preprint: <a href="https://arxiv.org/abs/1904.03704">1904.03704</a>
 

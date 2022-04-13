@@ -67,7 +67,7 @@ Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
 
 <a href="mailto:Sandy.Engelhardt@med.uni-heidelberg.de" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>Sandy.engelhardt@med.uni-heidelberg.de</a>
 
-<a href="https://twitter.com/AdaptOR2021" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>Twitter</a>
+<a href="https://twitter.com/AdaptOR2022" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>Twitter</a>
 <br>
 
 <a href="https://informatics4life.org/"><img href="https://informatics4life.org/" src="/assets/images/I4L-Logo.jpg" srcset="/assets/images/I4L-Logo.jpg 1440w, /assets/images/I4L-Logo-medium.jpg 950w, /assets/images/I4L-Logo-small.jpg 475w, /assets/images/I4L-Logo-mini.jpg 144w" sizes="50vw" width="200px"></a><br>

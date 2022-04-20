@@ -43,17 +43,8 @@ summary: "Information about the schedule and publication"
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>either 17/09/2022<br>
-                or 23/09/2022</dt>
-                <dd>associated workshop days</dd>
-            </div>
-        </div>
-        <div class="cell">
-            <div class="cell-content">
-                <dt>Date of the workshop</dt>
-                <dd>
-				release date of the results
-				</dd>
+                <dt>22/09/2022</dt>
+                <dd>Workshop day & release of results</dd>
             </div>
         </div>
     </dl>

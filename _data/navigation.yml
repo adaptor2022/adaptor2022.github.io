@@ -11,7 +11,7 @@ main:
     url: /timeline/
   - title: "Organizers"
     url: /organizers/
-  - title: "Leaderboard"
-    url: /leaderboard/
+  - title: "Evaluation"
+    url: /evaluation/
   - title: "Archive"
     url: /archive/

@@ -1,5 +1,5 @@
 ---
-title: "Registration"
+title: "Steps to register for AdaptOR 2022"
 permalink: /registration/
 layout: home
 summary: "Registration instructions"

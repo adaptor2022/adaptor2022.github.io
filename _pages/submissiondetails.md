@@ -1,49 +1,48 @@
 ---
 permalink: /submissiondetails/
-title: "Submission details"
+title: "Submitting to AdaptOR 2022"
 layout: home
-summary: "Information about the submission and the evaluation"
+summary: "Information about submission "
+usemathjax: true
 ---
 
-## <a id="Submission" class="uncolored_link">Submission</a>
+### <a id="Submission" class="uncolored_link">What's Required</a>
 
-For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit a **Docker container on the Synapse platform** with the following requirements:
-  - (Mandatory:) Participants must submit a half-page write up of the challenge explaining their approach.
-  - (Mandatory:) For each new input image of size 960x540 belonging to the left camera from the Intraop-Domain, the model should be able to generate an image of the same size belonging to the right camera.
-  The docker container should output an image for **all images** in the hosts input directory via the command:
-  ```
-  $ docker run --gpus all -v "<absolute_host_input_directory>:/input" -v "<absolute_host_output_directory>:/output" adaptor_challenge view_synthesis
-  ```
+1. For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit a **Docker container on the Synapse platform** (more details in the below sections). 
+2. Additionally, the participants must submit a half-page write up of the challenge explaining their approach.
 
-Please refer to our upcoming AdaptOR Submission Tutorial and the AdaptOR Docker Submission Example for more detailed information.
+### <a id="Submission" class="uncolored_link">Submission format</a>
 
-Teams are encouraged to provide their code open source. The URL should be added in the half-page description and in the potential LNCS submission.
-Participants agree that the challenge organizers are allowed to use their submitted docker containers to run further meta-analysis.
+1. The Docker container must meet the following requirements:
+   - For each new input image of size $$960 \times 540$$ belonging to the left camera from the Intraop-Domain, the model should be able to generate an image of the same size belonging to the right camera, following the same folder structure as the given test dataset.
+   - The docker container should output an image for **all images** in the hosts input directory via the command:
+     ```
+     $ docker run --gpus all -v "<absolute_host_input_directory>:/input" -v "<absolute_host_output_directory>:/output" adaptor_challenge
+     ```
+   - Please refer to our [AdaptOR Docker example](https://github.com/Cardio-AI/adaptor_docker_example), to get easily set up with docker for your model. 
 
-Each participating team is allowed to make a total of 3 submissions to the system. The evaluation after each submission will be communicated to the team. 
-The best results out of the submissions will be considered as the final result, and the same will be updated on the leaderboard. The docker will run on a **24 Gb RAM Nvidia Titan RTX**. Please make sure the specified batch size in your code does not exceed the 24 Gb limit
+2. In addition to the half-page write-up, the participants also have an option to submit an $$8$$-page LNCS paper on their methods to the [DGM4MICCAI](https://dgm4miccai.github.io/) workshop in MICCAI 2022. More information can be found [here](/publications/).
 
-The challenge will be split into **three phases**: Training phase, Platform testing phase, Testing phase.
+### <a id="Submission" class="uncolored_link">How and where to submit</a>
 
-During **training phase**, the participating teams will be able to independently validate their results using cross-validation on the training data.
+1. The submissions of the Docker container are done via the Synapse platform of our challenge. Please refer to this submission tutorial on how you can submit your container to our challenge via the Synapse platform. The challenge will be split into **three phases**: Training phase, Platform testing phase, Submission phase.
 
-During the platform **testing phase**, they are allowed to use the official submission platform to resolve potential technical issues. We will use dummy datasets for sanity checks, e.g. to ensure the submission is in the correct format.
+   * **Training phase** (Until 30.06.2022): The participating teams can independently validate their results using cross-validation on the training data.
 
-During the **test phase**, participants are allowed to make in total three submissions. The best result out of these three is selected as final result. The docker will run on a **24 Gb RAM Nvidia Titan RTX**. Make sure the specified batch size in your code does not exceed the 24 Gb limit.
+   * **Platform testing phase** (01.07.2022-01.08.2022): During the platform testing phase, the participants are allowed to use the official submission platform to resolve potential technical issues. We will use dummy datasets for sanity checks, e.g. to ensure the submission is in the correct format.
+
+   * **Submission phase** (15.07.2022-15.08.2022): During the submission phase, participants are allowed to make in total three submissions. The best result out of these three is selected as final result. The docker will run on a **$$24$$ GB RAM Nvidia Titan RTX**. Make sure the specified batch size in your code does not exceed the $$24$$ GB limit.
+
+2. More details about how to submit the half-page write-up will follow soon. 
 
 ### <a id="Evaluation" class="uncolored_link">Evaluation</a>
 
-#### <a id="Metrics_And_Reporting" class="uncolored_link">Metrics And Reporting</a>
+Please refer to our [evaluation page](/evaluation/) for details on how evaluation, ranking and reporting of the metrics will be performed.
 
-We will make the code available on the synapse platform that will be used to compute the metrics for ranking.
-The metric used for evaluation is a combination of local distance-based metric (L1) and a perceptual metric (SSIM).
+{% capture notice-2 %} 
+**Note**: Teams are encouraged to provide their code open source. The URL should be added in the half-page description and in the potential LNCS submission.
+Participants agree that the challenge organizers are allowed to use their submitted docker containers to run further meta-analysis.
+{% endcapture %}
 
-#### <a id="Ranking" class="uncolored_link">Ranking</a>
+<div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-The evaluation is performed on the intra-operative test dataset using weighted L1 and SSIM.
-In case the metrics are tied between two teams, the time stamp of the submission will be used for the ranking, and the earlier submission will have a higher ranking.
-
-#### <a id="Result_announcement" class="uncolored_link">Result announcement</a>
-
-All the results will be made available publicly. The announcement of the winner will be made at the workshop and the website will be updated accordingly.
-All teams should participate in the workshop and will be invited to present their work in more detail, which we hope will foster detailed discussions. In case of a virtual event, we will seek for providing discussion opportunities in small groups.

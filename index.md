@@ -14,17 +14,32 @@ sidebar:
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
+{% capture notice-1 %} 
+### ++ AdaptOR 2022 challenge is now open for registrations ++
+{: style="text-align: center;"}
+
+[Registration](/registration/){: .btn .btn--info .btn--large}
+{: style="text-align: center;"}
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
-<li> April 15th, 2022  - The AdaptOR challenge 2022 is now open! <a href="https://adaptor2022.github.io/registration/">Here's</a> how to register </li>
+<li> April 15th, 2022  - The AdaptOR challenge 2022 is now open! Please follow our <a href="https://adaptor2022.github.io/registration/">steps for registration</a>, and also check out details about the <a href="https://adaptor2022.github.io/submissiondetails/">submission</a>. </li>
 <li> April 1st, 2022  - The AdaptOR challenge will be associated to the <a href="https://dgm4miccai.github.io/">DGM4MICCAI workshop</a> 2022! </li>
 <li> March 13th, 2022 - The 2nd Edition of the AdaptOR challenge will be held in conjunction with MICCAI 2022!</li>
 </ul>
 
 ### <a id="Timeline" class="uncolored_link">Timeline </a>
 
-Release of Training Data is April 15th, 2022. Read more about <a href="https://adaptor2022.github.io/timeline/"> important dates </a>. 
+Next upcoming important dates:
+<ul>
+<li> July 01st, 2022  - Platform testing phase opens </li>
+<li> July 15th, 2022  - Submission system opens </li>
+</ul>
+View the complete timeline [here](/timeline/). 
+
 
 ### <a id="Challenge_Abstract" class="uncolored_link">Challenge Abstract </a>
 
@@ -34,25 +49,28 @@ becoming the novel state-of-the art [[2](#2)]. Especially the usage of 3D endosc
 and right camera and presented on a 3D-compatible monitor, has been proven very beneficial due to increased
 depth perception. Moreover, it is possible when post processing to perform quantitative analyses by exploiting the
 stereo relation.
+
 Towards this end, and building upon the challenge in the previous year [[7](#7)], the AdaptOR Challenge 2022 proposes
 a task of novel view synthesis for endoscopic data. During training, the participants are provided the left and the
 right stereo camera images, and the test time task is to predict the corresponding image for a given image from the
 left camera. This would serve the purposes of facilitating 3D perception when only 2D data is available and of
 providing relevant information for depth reconstruction, as novel view synthesis is an integral subtask of
 numerous existing cutting edge depth estimation methods [[5](#5),[6](#6)].
+
 Intraoperative data sets in this challenge have varying camera angles, illumination, field of views and occlusions
 from tissues, tubes, and increased light reflections from surgical headlights. Especially demanding in these scenes is
 the view-dependent appearance of objects that are directly in front of the camera (e.g., sutures). They render it
 difficult to train models that faithfully predict the missing image from the image pair or to define the correct
 correspondences between associated pixels. Therefore, the proposed task of novel view synthesis is difficult to
 solve.
+
 To enhance the training split with data from a related domain, we additionally provide stereo frames from a mitral
 valve surgical simulator. These frames have comparably stable illumination (less varying reflections) and a more
 standardized view angle. Participants are invited to include a domain adaptation approach (e.g.,[[3](#3)],[[4](#4)],[[8](#8)]) into their
 solution.
+
 The dataset this year is an extension of our dataset we released in the previous year, where we now consider more
 surgeries and additional phases of mitral valve repair to significantly increase the sizes of the single splits at higher resolutions.
-
 
 
 ### <a id="Challenge_Document" class="uncolored_link">Challenge Document</a>
@@ -115,5 +133,5 @@ The two top performing teams received certificates and prize money of 600€ and
 -->
 
 ### <a id="Potential_Future_Plans" class="uncolored_link">Potential Future Plans</a>
-Our goal is to extend the dataset with additional cases and to establish a recurring AdaptOR event to support progress in this application field. The <a href="https://adaptor2021.github.io/">1st edition of AdaptOR </a> was held at MICCAI 2021. 
+Our goal is to extend the dataset with additional cases and to establish a recurring AdaptOR event to support progress in this application field. The <a href="https://adaptor2021.github.io/">1st edition of AdaptOR</a> was held at MICCAI 2021. 
 

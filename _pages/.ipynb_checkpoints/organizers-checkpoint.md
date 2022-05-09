@@ -11,23 +11,24 @@ summary: "The organizers and supporting team of AdaptOR2021"
     <div class="organizer">
         <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
         <img src="/assets/images/engelhardt.jpg" srcset="/assets/images/engelhardt.jpg 213w, /assets/images/engelhardt-medium.jpg 141w, /assets/images/engelhardt-small.jpg 70w, /assets/images/engelhardt-mini.jpg 21w" sizes="50vw"><br>
-        <span class="organizer_name">Sandy Engelhardt</span><br></a>
+        <span class="organizer_name">Sandy Engelhardt</span><br>
         University Hospital Heidelberg<br>
         Artificial Intelligence in Cardiovascular Medicine (AICM-Lab)<br>
+        Heidelberg University Hospital</a>
     </div>
     <div class="organizer">
         <a href="https://sites.google.com/site/geometricanirban/">
         <img src="/assets/images/mukhopadhyay.jpg" srcset="/assets/images/mukhopadhyay.jpg 213w, /assets/images/mukhopadhyay-medium.jpg 141w, /assets/images/mukhopadhyay-small.jpg 70w, /assets/images/mukhopadhyay-mini.jpg 21w" sizes="50vw"><br>
-        <span class="organizer_name">Anirban Mukhopadhyay</span><br></a>
+        <span class="organizer_name">Anirban Mukhopadhyay</span><br>
         Technical University Darmstadt<br>  
-        Medical and Environmental Computing (MEC-Lab)
+        Medical and Environmental Computing (MEC-Lab)</a>
     </div>
     <div class="organizer">
         <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie">
         <img src="/assets/images/de_simone.jpg" srcset="/assets/images/de_simone.jpg 213w, /assets/images/de_simone-medium.jpg 141w, /assets/images/de_simone-small.jpg 70w, /assets/images/de_simone-mini.jpg 21w" sizes="50vw"><br>
-        <span class="organizer_name">Raffaele De Simone</span><br></a>
+        <span class="organizer_name">Raffaele De Simone</span><br>
         University Hospital Heidelberg<br>  
-        Department of Cardiac Surgery
+        Department of Cardiac Surgery</a>
     </div>
 </div>
 
@@ -44,7 +45,7 @@ Artificial Intelligence in Cardiovascular Medicine (AICM-Lab), Heidelberg Univer
     <div class="team_member">
         <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
         <img src="/assets/images/halvar_kelm.png" srcset="/assets/images/halvar_kelm.png 213w, /assets/images/halvar_kelm-medium.png 141w, /assets/images/halvar_kelm-small.png 70w, /assets/images/halvar_kelm-mini.png 21w" sizes="50vw"><br>
-        <span class="team_member_name">Halvar Kelm</span></a>
+        <span class="organizer_name">Halvar Kelm</span></a>
     </div>
 </div>
 
@@ -60,11 +61,11 @@ Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
 
 ### <a id="General_Contact" class="uncolored_link">General Contact</a>
           
-<a href="mailto:adaptor.challenge@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>AdaptOR Challenge team</a>
+<a href="mailto:adaptor.challenge@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>adaptor.challenge@gmail.com</a>
 
-<a href="mailto:lalithnag.sharangururaj@med.uni-heidelberg.de" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>Lalith Sharan</a>
+<a href="mailto:LalithNag.SharanGururaj@med.uni-heidelberg.de" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>LalithNag.SharanGururaj@med.uni-heidelberg.de</a>
 
-<a href="mailto:Sandy.Engelhardt@med.uni-heidelberg.de" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>Sandy Engelhardt</a>
+<a href="mailto:Sandy.Engelhardt@med.uni-heidelberg.de" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>Sandy.engelhardt@med.uni-heidelberg.de</a>
 
 <a href="https://twitter.com/AdaptOR2022" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>Twitter</a>
 <br>

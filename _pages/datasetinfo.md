@@ -3,7 +3,9 @@ title: "Dataset info"
 permalink: /datasetinfo/
 layout: home
 summary: "Information about data usage, data and labeling"
+usemathjax: true
 ---
+
 ### <a id="Data_Purposes" class="uncolored_link">Data Purposes</a>
 The purpose of disseminating the data is to perform a novel view synthesis task in endoscopic images of mitral valve repair.
 This analysis is taking place in the context of the AdaptOR challenge. The data is downloaded for this sole purpose and
@@ -38,14 +40,11 @@ One case refers to one stereo frame extracted from the simulation sessions and t
 
 Besides the Intraop-Data, the data from the Sim-Domain may additionally be used for improving generalization ability of the network. However, participants can individually decide to use the data or not.
 
-**Training Sim-Domain:**
-1366 stereo frames from 10 simulations (99-187 frames each) with an average of 136 frames per simulation.
+* **Training Sim-Domain:** $$1366$$ stereo frames from $$10$$ simulations ($$99$$-$$187$$ frames each) with an average of $$136$$ frames per simulation.
 
-**Training Intraop-Domain:**
-5395 stereo frames from 9 patients (346-1102 frames each) with an average of 600 frames per surgery/patient.
+* **Training Intraop-Domain:** $$5395$$ stereo frames from $$9$$ patients ($$346$$-$$1102$$ frames each) with an average of $$600$$ frames per surgery/patient.
 
-**Testing Intraop-Domain:**
-450 mono frames from 5 patients (100 frames from each). Patients are different from the training set.
+* **Testing Intraop-Domain:** $$450$$ mono frames from $$5$$ patients ($$100$$ frames from each). Patients are different from the training set.
 
 Besides the frames themselves, we release to which (anonymized) patient and domain the frame belongs to. 
 The number of frames per simulation/patient in the training data set are not equal, but are on the same scale. However, we balanced the number of frames per patient in the test data. Therefore, each patient in the test set has a similar influence on the final score. The test set is curated to avoid over-dependence on data from one patient, i.e. the test data comprises of a small number of frames but from diverse surgeries with different camera angles, illumination and field of views.

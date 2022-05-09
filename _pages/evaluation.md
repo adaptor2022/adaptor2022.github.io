@@ -19,13 +19,13 @@ A combination of local and perceptual metrics have been found to be a more relia
 * **Perceptual metrics**: Using a metric such as the *Structural similarity (SSIM)* accounts for the fact that the human visual system is sensitive to changes in local structure. 
 The sensitivity of the human visual system to noise depends on local luminance, contrast, and structure [[2](#2)]. The metric takes into account the neighbourhood information of a pixel.
 
-* **Local metrics**: such as the \\[L_p\\] norm are normally are convex and differentiable. and for this reason commonly also used as optimising functions.
+* **Local metrics**: such as the \\(L_p\\) norm are normally are convex and differentiable. and for this reason commonly also used as optimising functions.
 However, they assume independence of pixels and ignore local context [[1](#1)]. 
-An $$L_p$$ norm has the range $$[ 0, n^{1/p}\times{D} ]$$, where $$D$$ is the maximum pixel value of the image. To be able to use a metric in the range $$[0, 1]$$ that is easier to combine with other image similarity metrics of the same range,
-we first normalise the pixel values between $$[0, 1]$$, and then compute the *RMSE* for each channel between the prediction and the ground-truth.
+An $$L_p$$ norm has the range \\([ 0, n^{1/p}\times{D} ]\\), where $$D$$ is the maximum pixel value of the image. To be able to use a metric in the range \\([0, 1]\\) that is easier to combine with other image similarity metrics of the same range,
+we first normalise the pixel values between \\([0, 1]\\), and then compute the *RMSE* for each channel between the prediction and the ground-truth.
 The final score for one sample is then averaged for each channel. In this case, the lower the score the better, since this is an error metric. Therefore, we compute (_1-RMSE_) so that it can be combined on the same scale with _SSIM_.
 
-The final combination of this metric used will be: $$0.5 * SSIM + 0.5 * (1-RMSE)$$. The implementation of this metric can be found in the Synapse platform here.
+The final combination of this metric used will be: \\(0.5 * SSIM + 0.5 * (1-RMSE)\\). The implementation of this metric can be found in the Synapse platform here.
 We would like to mention here, that no metric is perfect and both the individual metrics as well as the combined metrics have their own limitations. A more detailed analysis of these cases will further be presented in the potential journal publication.
 
 #### <a id="Ranking" class="uncolored_link">Ranking</a>

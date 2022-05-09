@@ -25,7 +25,7 @@ usemathjax: true
 
 ### <a id="Submission" class="uncolored_link">How and where to submit</a>
 
-1. The submissions of the Docker container are done via the Synapse platform of our challenge. Please refer to this submission tutorial on how you can submit your container to our challenge via the Synapse platform. The challenge will be split into **three phases**: Training phase, Platform testing phase, Submission phase.
+1. The submissions of the Docker container are done via the [Synapse platform](https://www.synapse.org/#!Synapse:syn29340309/wiki/) of our challenge. Please refer to our [submission tutorial](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629) on how you can submit your container to our challenge via the Synapse platform. The challenge will be split into **three phases**: Training phase, Platform testing phase, Submission phase.
 
    * **Training phase** (Until 30.06.2022): The participating teams can independently validate their results using cross-validation on the training data.
 

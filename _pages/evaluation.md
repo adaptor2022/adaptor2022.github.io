@@ -19,7 +19,7 @@ A combination of local and perceptual metrics have been found to be a more relia
 * **Perceptual metrics**: Using a metric such as the *Structural similarity (SSIM)* accounts for the fact that the human visual system is sensitive to changes in local structure. 
 The sensitivity of the human visual system to noise depends on local luminance, contrast, and structure [[2](#2)]. The metric takes into account the neighbourhood information of a pixel.
 
-* **Local metrics**: such as the $$L_p$$ norm are normally are convex and differentiable. and for this reason commonly also used as optimising functions.
+* **Local metrics**: such as the \\[L_p\\] norm are normally are convex and differentiable. and for this reason commonly also used as optimising functions.
 However, they assume independence of pixels and ignore local context [[1](#1)]. 
 An $$L_p$$ norm has the range $$[ 0, n^{1/p}\times{D} ]$$, where $$D$$ is the maximum pixel value of the image. To be able to use a metric in the range $$[0, 1]$$ that is easier to combine with other image similarity metrics of the same range,
 we first normalise the pixel values between $$[0, 1]$$, and then compute the *RMSE* for each channel between the prediction and the ground-truth.

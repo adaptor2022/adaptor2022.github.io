@@ -19,7 +19,7 @@ locale: "en-US"
 title: "AdaptOR2022"
 title_separator: "|"
 subtitle: # site tagline that appears below site title in masthead
-name: "AdaptOR2021"
+name: "AdaptOR2022"
 description : "AdaptOR2022 - MICCAI2022"
 url: "https://adaptor2022.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -71,16 +71,16 @@ atom_feed:
 
 # Search Engine Optimization
 logo: /assets/images/AdaptOR.png
-tagline: "AdaptOR2021 - Deep Generative Model Challenge for Domain Adaptation in Surgery - MICCAI2021"
-author: "AdaptOR2021"
+tagline: "AdaptOR2022 - Deep Image Generation Model Challenge in Surgery - MICCAI2022"
+author: "AdaptOR2022"
 twitter:
-  username: "AdaptOR2021"
+  username: "AdaptOR2022"
   card: summary
   image:
     path: /assets/images/AdaptOR.png
     height: 100
     width: 100
-title_image: "https://adaptor2021.github.io/assets/images/AdaptOR.png"
+title_image: "https://adaptor2022.github.io/assets/images/AdaptOR.png"
 image:
   path: /assets/images/AdaptOR.png
   height: 100

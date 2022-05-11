@@ -2,7 +2,7 @@
 title: "Organizers"
 permalink: /organizers/
 layout: home
-summary: "The organizers and supporting team of AdaptOR2021"
+summary: "The organizers and supporting team of AdaptOR2022"
 ---
 
 ### <a id="Organizing_Team" class="uncolored_link">Organizing Team</a>

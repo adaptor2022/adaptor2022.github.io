@@ -75,7 +75,7 @@ surgeries and additional phases of mitral valve repair to significantly increase
 
 ### <a id="Challenge_Document" class="uncolored_link">Challenge Document</a>
 
-<!--- DOI <a href="https://zenodo.org/record/4646979#.YGMXXD9CQ2w">10.5281/zenodo.4646979 (v2)</a> -->
+DOI <a href="https://zenodo.org/record/6362269#.YnvK-SNBzmg">10.5281/zenodo.6362269</a>
 
 ### <a id="Keywords" class="uncolored_link">Keywords</a>
 <div class="smaller-text">

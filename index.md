@@ -24,6 +24,15 @@ sidebar:
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
+{% capture notice-2 %} 
+### ++ Important announcement on the released training data (Updated June 2nd, 2022) ++ 
+A small number of the sub-folders (7 out of 64) have the images of the left and right camera switched. This 
+issue has now been fixed on synapse. Please run the ```download_files.py``` script on synapse again - this will download 
+and replace only the changed files onto your system.
+{% endcapture %}
+
+<div class="notice">{{ notice-2 | markdownify }}</div>
+
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
 <li> April 15th, 2022  - The AdaptOR challenge 2022 is now open! Please follow our <a href="https://adaptor2022.github.io/registration/">steps for registration</a>, and also check out details about the <a href="https://adaptor2022.github.io/submissiondetails/">submission</a>. </li>

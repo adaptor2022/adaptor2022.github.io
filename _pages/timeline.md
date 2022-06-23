@@ -22,6 +22,12 @@ summary: "Information about the schedule and publication"
         </div>
         <div class="cell">
             <div class="cell-content">
+                <dt> <span style="color:#0B0B45">25.06.2022</span> </dt>
+                <dd>Workshop paper submission date</dd>
+            </div>
+        </div>
+        <div class="cell">
+            <div class="cell-content">
                 <dt> <span style="color:#0B0B45">01.07.2022 - 01.08.2022</span> </dt>
                 <dd>platform testing</dd>
             </div>
@@ -30,13 +36,6 @@ summary: "Information about the schedule and publication"
             <div class="cell-content">
                 <dt> <span style="color:#0B0B45">15.07.2022 - 15.08.2022</span> </dt>
                 <dd>submission of docker container</dd>
-            </div>
-        </div>
-        <div class="cell">
-            <div class="cell-content">
-                <dt> <span style="color:#0B0B45">Depending on the<br>
-                timeline of the workshop</span> </dt>
-                <dd>LNCS paper submission date</dd>
             </div>
         </div>
         <div class="cell">

@@ -16,19 +16,19 @@ summary: "Information about the schedule and publication"
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt> 15.04.2022 - 30.06.2022 </dt>
+                <dt> <span style="color: gray;">15.04.2022 - 30.06.2022</span> </dt>
                 <dd>registration period</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt> <span style="color:#0B0B45">25.06.2022</span> </dt>
+                <dt> <span style="color: gray;">25.06.2022</span> </dt>
                 <dd>Workshop paper submission date</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt> <span style="color:#0B0B45">01.07.2022 - 01.08.2022</span> </dt>
+                <dt> 01.07.2022 - 01.08.2022 </dt>
                 <dd>platform testing</dd>
             </div>
         </div>

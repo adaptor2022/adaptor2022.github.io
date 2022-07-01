@@ -26,6 +26,8 @@ sidebar:
 
 {% capture notice-3 %} 
 ### ++ AdaptOR 2022 platform testing phase is open ++
+{: style="text-align: center;"}
+
 You can now submit your docker containers to test the submission process. More info [here](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629)
 {: style="text-align: center;"}
 {% endcapture %}

@@ -15,7 +15,7 @@ sidebar:
 </div>
 
 {% capture notice-1 %} 
-### ++ AdaptOR 2022 challenge is now open for registrations ++
+### ++ AdaptOR 2022 challenge is open for registrations ++
 {: style="text-align: center;"}
 
 [Registration](/registration/){: .btn .btn--info .btn--large}
@@ -23,6 +23,14 @@ sidebar:
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-3 %} 
+### ++ AdaptOR 2022 platform testing phase is open ++
+You can now submit your docker containers to test the submission process. More info [here](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629)
+{: style="text-align: center;"}
+{% endcapture %}
+
+<div class="notice--info">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-2 %} 
 ### ++ Important announcement on the released training data (Updated June 2nd, 2022) ++ 

@@ -15,10 +15,13 @@ sidebar:
 </div>
 
 {% capture notice-1 %} 
-### ++ AdaptOR 2022 challenge is open for registrations ++
+### ++ AdaptOR 2022 challenge submission system is now open! ++
 {: style="text-align: center;"}
 
-[Registration](/registration/){: .btn .btn--info .btn--large}
+More info [here](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629)
+{: style="text-align: center;"}
+
+[Submit](https://www.synapse.org/#!Synapse:syn29340309/challenge/){: .btn .btn--info .btn--large}
 {: style="text-align: center;"}
 {% endcapture %}
 

@@ -12,7 +12,7 @@ sidebar:
 
 {% capture notice-close %} 
 ### ++ AdaptOR 2022 challenge is closed and the datasets are no longer available through this platform ++
-{: style="text-align: center; background-color: red;"}
+{: style="text-align: center;"}
 {% endcapture %}
 
 <div class="notice" style="background-color: #ffcccc;">{{ notice-close | markdownify }}</div>

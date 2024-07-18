@@ -10,32 +10,37 @@ sidebar:
 ---
 {% seo %}
 
+{% capture notice-3 %} 
+### ++ AdaptOR 2022 challenge is closed and the datasets are no longer available through this platform ++
+{: style="text-align: center;"}
+{% endcapture %}
+
 <div class="centered">
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
-{% capture notice-1 %} 
-### ++ AdaptOR 2022 challenge submission system is now open! ++
-{: style="text-align: center;"}
+[//]: # {% capture notice-1 %} 
+[//]: # ### ++ AdaptOR 2022 challenge submission system is now open! ++
+[//]: # {: style="text-align: center;"}
 
-More info [here](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629)
-{: style="text-align: center;"}
+[//]: # More info [here](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629)
+[//]: # {: style="text-align: center;"}
 
-[Submit](https://www.synapse.org/#!Synapse:syn29340309/challenge/){: .btn .btn--info .btn--large}
-{: style="text-align: center;"}
-{% endcapture %}
+[//]: # [Submit](https://www.synapse.org/#!Synapse:syn29340309/challenge/){: .btn .btn--info .btn--large}
+[//]: # {: style="text-align: center;"}
+[//]: # {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-{% capture notice-3 %} 
-### ++ AdaptOR 2022 platform testing phase is open ++
-{: style="text-align: center;"}
+[//]: # {% capture notice-3 %} 
+[//]: # ### ++ AdaptOR 2022 platform testing phase is open ++
+[//]: # {: style="text-align: center;"}
 
-You can now submit your docker containers to test the submission process. More info [here](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629)
-{: style="text-align: center;"}
-{% endcapture %}
+[//]: # You can now submit your docker containers to test the submission process. More info [here](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629)
+[//]: # {: style="text-align: center;"}
+[//]: # {% endcapture %}
 
-<div class="notice--info">{{ notice-3 | markdownify }}</div>
+[//]: # <div class="notice--info">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-2 %} 
 ### ++ Important announcement on the released training data (Updated June 2nd, 2022) ++ 

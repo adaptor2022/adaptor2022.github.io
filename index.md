@@ -10,10 +10,12 @@ sidebar:
 ---
 {% seo %}
 
-{% capture notice-3 %} 
+{% capture notice-close %} 
 ### ++ AdaptOR 2022 challenge is closed and the datasets are no longer available through this platform ++
 {: style="text-align: center;"}
 {% endcapture %}
+
+<div class="notice">{{ notice-close | markdownify }}</div>
 
 <div class="centered">
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">

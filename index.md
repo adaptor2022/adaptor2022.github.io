@@ -15,7 +15,7 @@ sidebar:
 {: style="text-align: center; background-color: red;"}
 {% endcapture %}
 
-<div class="notice">{{ notice-close | markdownify }}</div>
+<div class="notice" style="background-color: #ffcccc;">{{ notice-close | markdownify }}</div>
 
 <div class="centered">
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
@@ -32,8 +32,6 @@ sidebar:
 [//]: # {: style="text-align: center;"}
 [//]: # {% endcapture %}
 
-[//]: # <div class="notice--info">{{ notice-1 | markdownify }}</div>
-
 [//]: # {% capture notice-3 %} 
 [//]: # ### ++ AdaptOR 2022 platform testing phase is open ++
 [//]: # {: style="text-align: center;"}
@@ -41,8 +39,6 @@ sidebar:
 [//]: # You can now submit your docker containers to test the submission process. More info [here](https://www.synapse.org/#!Synapse:syn29340309/wiki/617629)
 [//]: # {: style="text-align: center;"}
 [//]: # {% endcapture %}
-
-[//]: # <div class="notice--info">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-2 %} 
 ### ++ Important announcement on the released training data (Updated June 2nd, 2022) ++ 
